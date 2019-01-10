@@ -59,7 +59,7 @@ void BackPop(pNode* pRoot)
       cur=cur->Next_;
     }
     free(cur->Next_);
-    cur->Next_==NULL;
+    cur->Next_=NULL;
   }
 }
 
